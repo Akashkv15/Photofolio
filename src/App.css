@@ -1,0 +1,104 @@
+body{
+  background-color: black !important; 
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.custom-navbar {
+  font-family: "Lobster Two", sans-serif;
+}
+.Nav3 i{
+   font-family: "Lobster Two", sans-serif;
+   color: white !important;
+   letter-spacing: 15px;
+}
+.Nav2 .nav-link {
+  color: white !important;       /* Sets text color */
+  font-weight: 500;              /* Optional: makes text slightly bold */
+}
+.Nav2{
+  margin-left: 390px;
+}
+.custom-dropdown .dropdown-item {
+ top: 15px;
+}
+.Div1{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Lobster Two", sans-serif;
+}
+.Div1 button{
+  background-color: rgb(8, 149, 102);
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.Nav1 i{
+  color: rgb(8, 149, 102)
+}
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.hover-image {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.hover-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  color: white;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.img-wrapper:hover .hover-image {
+  transform: scale(1.1);
+  filter: brightness(0.6);
+}
+
+.img-wrapper:hover .hover-icon {
+  opacity: 1;
+}
+
+/* Responsive widths */
+@media (min-width: 992px) {
+  .card { width: 22%; } /* 4 per row */
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+  .card { width: 45%; } /* 2 per row */
+}
+
+@media (max-width: 575px) {
+  .card { width: 90%; } /* 1 per row */
+}
+.three{
+  color: white;
+  text-align: center;
+  font-family: "Lobster Two", sans-serif;
+}
+.three button{
+   background-color: rgb(8, 149, 102);
+     color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.threee{
+  color: white;
+}
