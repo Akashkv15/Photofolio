@@ -73,18 +73,7 @@ body {
   opacity: 1;
 }
 
-/* Responsive widths */
-@media (min-width: 992px) {
-  .card { width: 22%; } /* 4 per row */
-}
 
-@media (max-width: 991px) and (min-width: 576px) {
-  .card { width: 45%; } /* 2 per row */
-}
-
-@media (max-width: 575px) {
-  .card { width: 90%; } /* 1 per row */
-}
 .three{
   color: white;
   text-align: center;
