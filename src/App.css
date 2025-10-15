@@ -91,3 +91,20 @@ body {
 .threee{
   color: white;
 }
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #222; /* visible contrast over black */
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .navbar-collapse {
+    background-color: black;
+    padding: 10px;
+     .Nav2 {
+    margin-left: 0 !important;
+     /* align links to left */
+  }
+    color: aliceblue;
+  }
+}
+ 

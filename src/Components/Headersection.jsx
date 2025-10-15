@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 function Headersection() {
   return (
-     <Navbar expand="lg" variant='dark' className='custom-navbar'>
+     <Navbar expand="lg" variant='dark' className='custom-navbar fixed-top'>
       <Container className="">
         <Nav className='Nav1'>
           <Navbar.Brand href="#home"><i class="bi bi-camera"></i> PhotoFolio</Navbar.Brand>
