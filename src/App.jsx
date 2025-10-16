@@ -7,6 +7,8 @@ import Mainbodytwo from './Components/Mainbodytwo'
 import Mainbodyone from './Components/Mainbodyone'
 import { Route, Routes } from 'react-router-dom'
 import Mainbodythree from './Components/Mainbodythree'
+import Mainabout from './Components/Mainabout'
+import HomePage from './Components/HomePage'
 
 
 function App() {
@@ -14,15 +16,11 @@ function App() {
 
   return (
     <>
-     <Headersection/>
+     
       <Routes>
-        <Route path="/" element={
-          <>
-            <Mainbodyone/>
-            <Mainbodytwo/>
-          </>
-        } />
+        <Route path="/" element={<HomePage></HomePage>} />
         <Route path="/main" element={<Mainbodythree/>} />
+        <Route path="/about" element={<Mainabout/>} />
       </Routes>
     </>
   )

@@ -107,4 +107,118 @@ body {
     color: aliceblue;
   }
 }
- 
+ .mainabout {
+  padding-top: 80px;   /* adjust if your navbar height differs */
+  color: white;       /* make text visible */
+  padding: 20px;
+  text-align: center;
+   font-family: "Lobster Two", sans-serif;
+}
+.mainabout button{
+   background-color: rgb(8, 149, 102);
+     color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.aboutcontent {
+  display: flex;
+  flex-direction: row; /* default for mobile/small screens */
+  margin-left: 200px;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 20px; 
+}
+
+.aboutcontent .aboutimg,
+.aboutcontent .imgcontent {
+  width: 100%; /* full width on small screens */
+}
+
+/* For laptops/desktops */
+@media (max-width: 992px) {
+  .aboutcontent {
+    flex-direction: column; /* row layout on large screens */
+    align-items: center; /* align top */
+    margin-left: 0px;
+  }
+  .aboutcontent .aboutimg,
+  .aboutcontent .imgcontent {
+    width: 50%; /* half width each */
+  }
+}
+
+.imgcontent{
+  color: white;
+  font-family: "Lobster Two", sans-serif;
+  margin-top: 20px;
+}
+.imgcontent h1{
+  font-size: 25px;
+}
+.iconimg i{
+  color:rgb(8, 149, 102); ;
+}
+.iconimg{
+  margin-top: 50px;
+}
+.aboutheading h4{
+  margin-left: 0px;
+  color: Grey;
+  font-family: "Lobster Two", sans-serif;
+  margin-top: 20px;
+}
+.aboutheading{
+  color: white;
+  font-family: "Lobster Two", sans-serif;
+    margin-left: 220px;
+}
+.aboutfooter{
+  border-top: 1px solid grey;
+  height: 200px;
+  text-align: center;
+  color: white;
+  font-family: "Lobster Two", sans-serif;
+  /* border: none; */
+}
+.aboutfooter i{
+  border: 1px solid grey;
+  border-radius: 100%;
+  
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px;
+}
+#sp2{
+  color:rgb(8, 149, 102); ;
+}
+.Move{
+  font-family: "Lobster Two", sans-serif;
+}
+.Move i{
+  color: yellow;
+}
+@media (max-width:768px) {
+  .aboutheading{
+    margin-left: 110px;
+  }
+  
+}
+@media (max-width:425px) {
+  .aboutcontent{
+    margin-left: 20px;
+  }
+}
+.iconimg{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 992px) {
+  .iconimg{
+    display: flex;
+    flex-direction: column;
+  }
+}
