@@ -38,8 +38,8 @@ function Maincontact() {
                <h5><i class="bi bi-envelope"></i>Email <br /> <span id='da1'>info@example.com</span></h5>
             </div>
     </div>
-    <div className="inp"style={{marginTop:'50px',}}>
-        <InputGroup className=" mb-3" style={{gap:'10px',width:'80%',marginLeft:'150px'}}>
+    <div className="inp"style={{marginTop:'80px',}}>
+        <InputGroup className=" mb-3" style={{gap:'10px',width:'80%',marginLeft:'50px'}}>
             
             <Form.Control
             placeholder="Your name"
@@ -59,7 +59,7 @@ function Maincontact() {
             />
         </InputGroup>
 
-        <InputGroup className="mb-3" style={{width:'80%',marginLeft:'150px'}}>
+        <InputGroup className="mb-3" style={{width:'80%',marginLeft:'50px'}}>
             <Form.Control
             placeholder="Subject"
             aria-label="Username"
@@ -70,7 +70,7 @@ function Maincontact() {
             />
             
         </InputGroup>
-        <InputGroup style={{width:'80%',marginLeft:'150px'}}>
+        <InputGroup style={{width:'80%',marginLeft:'50px'}}>
             {/* <InputGroup.Text>Message</InputGroup.Text> */}
             
             <Form.Control as="textarea" 
@@ -82,7 +82,9 @@ function Maincontact() {
             
             />
         </InputGroup>
+        <div className='mainservices1' style={{marginTop:'-10px',marginBottom:'10px'}}>
         <button>Send Message</button>
+        </div>
     </div>    
       <div className='aboutfooter'>
             <h5>© Copyright PhotoFolio All Rights Reserved</h5>

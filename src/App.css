@@ -442,6 +442,15 @@ body {
   .d3{
     margin-left: -68px;
   }
+  .inp button{
+    margin-left: 100px;
+  }
+  .inp{
+    margin-left: -50px;
+  }
+  .mainservices1 button{
+    margin-left: 45px;
+  }
 }
 .d3 h5{
   color: white;
@@ -484,7 +493,7 @@ body {
   box-shadow: 0 0 6px rgba(8,149,102,0.3) !important;
   outline: none !important;
 }
-.inp button{
+/* .inp button{
   background-color: rgb(8, 149, 102);
   color: white;
   border: none;
@@ -492,7 +501,34 @@ body {
   padding: 10px;
   cursor: pointer;
   margin-top: 40px;
-  margin-left: 690px;
+  margin-left: 0px;
+  
+  font-weight: bold;
+  margin-bottom:50px ;
+  width: 10%;
+} */
+.inp{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
    font-family: "Lobster Two", sans-serif;
-   font-weight: bold;
+   align-items: center;
+}
+.mainservices1 button{
+   background-color: rgb(8, 149, 102);
+     color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+@media (max-width:376px) {
+   .inp{
+    margin-left: -50px;
+  }
+  .mainservices1 button{
+    margin-left: 45px;
+  }
 }
