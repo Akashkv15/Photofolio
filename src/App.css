@@ -359,3 +359,140 @@ body {
     margin-left: 80px;
   }
 }
+.contactdata{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Lobster Two", sans-serif;
+  margin-top: 50px;
+}
+@media (max-width:1024px) {
+    .contactdata{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    #da1{
+      margin-right: 20px;
+    }
+    .d2{
+  margin-left: -172px;
+}
+.d3{
+  margin-left: -142px;
+}
+}
+
+.d1 h5{
+  color: white;
+  /* margin-left: 20px; */
+}
+.d1 i {
+  color: rgb(8, 149, 102);
+  border: 2px solid rgb(8, 149, 102);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  
+  /* vertical-align: middle; 
+ 
+  margin-top: 5px;       */
+  
+  position: relative;    
+  top: 11px;             
+}
+
+#da1{
+  margin-left: 60px;
+  font-size: 16px;
+}
+#da2{
+  margin-left: 60px;
+}
+.d2 h5{
+  color: white;
+  /* margin-left: 20px; */
+}
+.d2 i {
+  color: rgb(8, 149, 102);
+  border: 2px solid rgb(8, 149, 102);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  
+  /* vertical-align: middle; 
+ 
+  margin-top: 5px;       */
+  
+  position: relative;    
+  top: 11px;             
+}
+@media (max-width:321px) {
+  .d2{
+    margin-left: -100px;
+  }
+  .d1{
+    margin-left: 28px;
+  }
+  .d3{
+    margin-left: -68px;
+  }
+}
+.d3 h5{
+  color: white;
+  /* margin-left: 20px; */
+}
+.d3 i {
+  color: rgb(8, 149, 102);
+  border: 2px solid rgb(8, 149, 102);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  
+  /* vertical-align: middle; 
+ 
+  margin-top: 5px;       */
+  
+  position: relative;    
+  top: 11px;             
+}
+.ip1{
+  background-color: #222;
+}
+.custom-input {
+  /* border: 1px solid transparent;         */
+  background-color: #333;              
+ 
+  
+}
+
+/* change placeholder color */
+.custom-input::placeholder {
+  color: rgb(255, 255, 255) !important;
+  opacity: 1;
+}
+
+/* green border when typing or focusing */
+.custom-input:focus {
+  border: 1px solid rgb(8, 149, 102) !important;
+  box-shadow: 0 0 6px rgba(8,149,102,0.3) !important;
+  outline: none !important;
+}
+.inp button{
+  background-color: rgb(8, 149, 102);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 690px;
+   font-family: "Lobster Two", sans-serif;
+   font-weight: bold;
+}

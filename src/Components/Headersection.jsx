@@ -31,7 +31,7 @@ function Headersection() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='Nav2'>
-          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#home"><Link to="/" style={{color:'white',textDecoration:'none'}}>Home</Link></Nav.Link>
             <Nav.Link href="#link"> <Link to="/about" style={{color:'white',textDecoration:'none'}}>About</Link></Nav.Link>
              <NavDropdown title="Gallary" id="basic-nav-dropdown"  className="custom-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -45,7 +45,7 @@ function Headersection() {
               
             </NavDropdown>
             <Nav.Link href="#link"><Link to='/services' style={{color:'white',textDecoration:'none'}}>Services</Link></Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#link"><Link to='/contact' style={{color:'white',textDecoration:'none'}}>Contact</Link></Nav.Link>
 
         </Nav>
          

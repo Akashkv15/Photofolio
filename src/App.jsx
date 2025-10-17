@@ -10,6 +10,7 @@ import Mainbodythree from './Components/Mainbodythree'
 import Mainabout from './Components/Mainabout'
 import HomePage from './Components/HomePage'
 import Mainservices from './Components/Mainservices'
+import Maincontact from './Components/Maincontact'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/main" element={<Mainbodythree/>} />
         <Route path="/about" element={<Mainabout/>} />
         <Route path="/services" element={<Mainservices/>} />
+        <Route path='/contact' element={<Maincontact/>}/>
         <Route path="/home" element={
             <>
               <Headersection />
