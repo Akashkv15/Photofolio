@@ -222,3 +222,140 @@ body {
     flex-direction: column;
   }
 }
+ .mainservices {
+  margin-top: 80px;   /* adjust if your navbar height differs */
+  color: white;       /* make text visible */
+  padding: 20px;
+  text-align: center;
+   font-family: "Lobster Two", sans-serif;
+}
+.mainservices button{
+   background-color: rgb(8, 149, 102);
+     color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.servicescard{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  gap: 15px;
+  margin-top: 105px;
+  cursor: pointer;
+}
+.servicescard .card{
+  background-color: rgb(56, 55, 55);
+  color: white;
+}
+.servicescard i{
+  background-color:rgb(8, 149, 102);
+  font-size: 25px;                     /* icon size */
+  width: 50px;                         /* equal width and height → circle */
+  height: 50px;
+  border-radius: 50%;                  /* makes it a perfect circle */
+  display: flex;                       /* center icon inside circle */
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px auto;      */
+
+}
+.service-card {
+  position: relative;
+  z-index: 1;
+  
+  transition: color 0.8s ease;
+}.service-card::before {
+  content: "";
+  position: absolute;
+  bottom: -110%;              /* start below the card */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(8, 149, 102); /* your green */
+  transition: bottom 0.4s ease;
+  z-index: 0;
+  text-decoration: none;
+}
+
+/* Slide up on hover */
+.service-card:hover::before {
+  bottom: 0; /* fill upward */
+}
+
+/* Ensure card text/icons stay visible above green */
+.service-card * {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s ease;
+}
+.service-card:hover i {
+  background-color: white;       /* icon circle turns white */
+  color: rgb(8, 149, 102);       /* icon color turns green */
+}
+@media (max-width:1024px) {
+  .servicescard{
+    flex-wrap: wrap;
+  }
+  .service-card::before{
+    bottom: -110%;
+  }
+ 
+}
+.serviceheading h4{
+  margin-left: 0px;
+  color: Grey;
+  font-family: "Lobster Two", sans-serif;
+  margin-top: 20px;
+}
+.serviceheading{
+  color: white;
+  font-family: "Lobster Two", sans-serif;
+    margin-left: 160px;
+}
+.serviceprice{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+   font-family: "Lobster Two", sans-serif;
+   margin-top: 50px;
+   flex-wrap: wrap;
+   
+}
+.price1 h5 {
+  display: flex;             /* make h5 a flex container */
+  justify-content: space-between; /* space between text and price */
+  align-items: center;
+  border-bottom: 2px dotted rgb(233, 227, 227); /* dotted line under the h5 */
+  padding-bottom: 5px;       /* space between text and line */
+  font-size: 25px;
+  margin-bottom: 25px;
+  
+}
+
+/* Optional: give some space to the price */
+.price1 h5 #p1 {
+  margin-left: 200px;
+  color: rgb(8, 149, 102);
+}
+@media (max-width:426px) {
+  .price1 h5{
+    font-size: 15px;
+  }
+  .serviceheading{
+    margin-left: 50px;
+  }
+}
+@media (max-width:768px) {
+   .serviceheading{
+    margin-left: 80px;
+  }
+}

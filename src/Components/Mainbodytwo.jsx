@@ -75,6 +75,11 @@ function Mainbodytwo() {
       </Card>
 
     </div>
+    <div className='aboutfooter'>
+            <h5>© Copyright PhotoFolio All Rights Reserved</h5>
+            <h3><i class="bi bi-twitter-x"></i><i class="bi bi-facebook"></i><i class="bi bi-whatsapp"></i><i class="bi bi-youtube"></i></h3>
+            <h5>designed by <span id='sp2'>BootstrapMade</span></h5>
+      </div>
    </>
   
   )

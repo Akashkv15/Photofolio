@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom'
 import Mainbodythree from './Components/Mainbodythree'
 import Mainabout from './Components/Mainabout'
 import HomePage from './Components/HomePage'
+import Mainservices from './Components/Mainservices'
 
 
 function App() {
@@ -21,6 +22,16 @@ function App() {
         <Route path="/" element={<HomePage></HomePage>} />
         <Route path="/main" element={<Mainbodythree/>} />
         <Route path="/about" element={<Mainabout/>} />
+        <Route path="/services" element={<Mainservices/>} />
+        <Route path="/home" element={
+            <>
+              <Headersection />
+              <Mainbodyone />
+              <Mainbodytwo />
+              {/* <Mainbodythree /> */}
+              </>
+} />
+
       </Routes>
     </>
   )
