@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Mainbodytwo from './Mainbodytwo';
+import { Link } from "react-router-dom";
 function Mainbodythree() {
   return (
     <>
@@ -17,12 +19,13 @@ function Mainbodythree() {
 
        
           <Nav className="me-auto">
-            <Nav.Link href="#home"style={{ color: "white",fontWeight:'bold' }}>Home</Nav.Link>
+            <Nav.Link href="#home"style={{ color: "white",fontWeight:'bold' }}><Link to='/home' style={{color:'white',textDecoration:'none'}}>Home</Link></Nav.Link>
             <Nav.Link href="#link"style={{ color: "white" ,fontWeight:'bold'}}>Link</Nav.Link>
           </Nav>
         
       </Container>
     </Navbar>
+    <Mainbodytwo></Mainbodytwo>
     </>
   )
 }

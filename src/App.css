@@ -532,3 +532,11 @@ body {
     margin-left: 45px;
   }
 }
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item.show {
+  background-color: transparent !important;
+  color: inherit !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -34,14 +34,14 @@ function Headersection() {
           <Nav.Link href="#home"><Link to="/" style={{color:'white',textDecoration:'none'}}>Home</Link></Nav.Link>
             <Nav.Link href="#link"> <Link to="/about" style={{color:'white',textDecoration:'none'}}>About</Link></Nav.Link>
              <NavDropdown title="Gallary" id="basic-nav-dropdown"  className="custom-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Nature</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">People</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Architecture</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Animals</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Sports</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Travel</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Deep Dropdown</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1"><Link to='/main'style={{color:'black',textDecoration:'none'}}> Action </Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"><Link to="/main" style={{color:'black',textDecoration:'none'}}>Nature</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to='/main' style={{color:'black',textDecoration:'none'}}>People</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to='/main' style={{color:'black',textDecoration:'none'}}>Architeture</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to='/main' style={{color:'black',textDecoration:'none'}}>Animals</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to='/main' style={{color:'black',textDecoration:'none'}}>Sports</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to='/main' style={{color:'black',textDecoration:'none'}}>Travel</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><Link to='/main' style={{color:'black',textDecoration:'none'}}>Deep Dropdown</Link></NavDropdown.Item>
               
             </NavDropdown>
             <Nav.Link href="#link"><Link to='/services' style={{color:'white',textDecoration:'none'}}>Services</Link></Nav.Link>
